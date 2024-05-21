@@ -55,4 +55,4 @@ def update_student(student_id: int, student: Student):
         return {"Error": "Student does not exist"}
     
     students[student_id] = student
-    return students[student_id]
+    return students[studen]
